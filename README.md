@@ -7,6 +7,11 @@ about Stores and Items. Performing CRUD operation on the database using API gene
 To run the code locally:
 * Download the code
 * Open the code directory
-* Run the following command from terminal :
-```pip install -r requirement.txt``` (Need to have Python2.7 or later installed - SQLAlchemy will not work otherwise) 
+* Run the following commands from terminal (Need to have Python2.7 or later installed - SQLAlchemy will not work otherwise) :
+
+```pip install flask``` 
+```pip install flask-RESTful```
+```pip install flask-JWT```
+```pip install flask-SQLAlchemy```
+
 * Now just run : ```python app.py```
